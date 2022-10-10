@@ -1,0 +1,129 @@
+:root {
+    --link-color-hover: #2196F3;
+    --primary-color: #212121;
+    --secondary-color: #757575;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+/* header */
+ul {
+    list-style: none;
+}
+nav {
+    font-family: Roboto, sans-serif;
+}
+
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    color: #2196F3;
+}
+
+.link-header {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.link-header:hover,
+.link-header:focus {
+    color: var(--link-color-hover);
+}
+
+.link-contact {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--link-color-hover)
+}
+
+/* main */
+h1 {
+    color: white;
+}
+.buttons {
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    cursor: pointer;
+}
+.buttons-all {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+        background: #2196F3;
+        cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+    color: white;
+    background: #2196F3;
+}
+.link-main {
+    text-decoration: none;
+}
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+}
+.subtitle {
+    font-size: 16px;
+        line-height: 1.88;    
+        letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+/* footer */
+footer {
+    background: #2F303A;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}

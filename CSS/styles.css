@@ -1,0 +1,146 @@
+:root {
+ --link-color-hover: #2196F3;
+ --button-color: white;
+ --button-background: #2196F3;
+ --primary-color: #212121;
+ --secondary-color: #757575;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+ /* header */
+ ul {
+    list-style: none;
+ }
+nav {
+    font-family: Roboto, sans-serif;
+}
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        color: black;
+}
+.logo {
+    color: #2196F3;
+}
+
+.link-header {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+}
+.link-header:hover,
+.link-header:focus {
+    color:#2196F3;
+}
+.link-contact {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--link-color-hover)
+}
+/* body */
+.hero {
+    background: #2F303A;
+}
+.hero-title {
+    color: white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: var(--button-background);
+    cursor: pointer;
+}
+.title-advantages {
+    color: white;
+}
+.subtitle-advantages {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primary-color)
+}
+.advantages-descripton {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+.title-what-do-we-do {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--primary-color);
+}
+.our-team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--primary-color)
+}
+.employee {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--primary-color);
+}
+.position {
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* footer */
+footer {
+    background: #2F303A;
+}
+.logo-footer {
+font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: white;
+}
+.link-footer {
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
