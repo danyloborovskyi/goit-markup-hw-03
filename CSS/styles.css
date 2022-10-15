@@ -8,9 +8,28 @@
 body {
     font-family: Roboto, sans-serif;
 }
+.container {
+    max-width: 1230px;
+    margin:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px dashed black;
+}
  /* header */
- ul {
+ .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+ }
+ 
+ .list-navigation {
     list-style: none;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    padding: 0%;
+    align-items: center;
  }
 nav {
     font-family: Roboto, sans-serif;
@@ -23,6 +42,7 @@ nav {
         letter-spacing: 0.03em;
         text-decoration: none;
         color: black;
+        margin-right: 93px;
 }
 .logo {
     color: #2196F3;
@@ -36,10 +56,20 @@ nav {
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+        margin-right: 50px;
+}
+.link-header.contacts {
+    margin-right: 0px;
 }
 .link-header:hover,
 .link-header:focus {
     color:#2196F3;
+}
+.section-header-contacts {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
 }
 .link-contact {
     text-decoration: none;
@@ -50,15 +80,22 @@ nav {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        margin-right: 50px;
+        margin-left: 0%;
+}
+.link-contact.phone {
+margin-right: 0%;
 }
 
 .link-contact:hover,
 .link-contact:focus {
     color: var(--link-color-hover)
 }
+
 /* body */
-.hero {
-    background: #2F303A;
+.hero-section {
+   background: #2F303A;
+   text-align: center;
 }
 .hero-title {
     color: white;
@@ -67,6 +104,8 @@ nav {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 .button-hero {
     font-weight: 700;
@@ -76,9 +115,11 @@ nav {
     color: #FFFFFF;
     background: var(--button-background);
     cursor: pointer;
+    border-radius: 4px;
+    border-color: transparent;
 }
 .title-advantages {
-    color: white;
+    display: none;
 }
 .subtitle-advantages {
         font-weight: 700;
@@ -86,14 +127,19 @@ nav {
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--primary-color)
+        color: var(--primary-color);
+        margin-top: 0;
+        margin-bottom: 10px;
 }
 .advantages-descripton {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--secondary-color);
+margin-top: 0%;
+margin-bottom: 0%;
 }
+
 .title-what-do-we-do {
         font-weight: 700;
         font-size: 36px;
