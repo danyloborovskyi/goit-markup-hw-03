@@ -106,9 +106,6 @@ nav {
     letter-spacing: 0.02em;
 
 }
-.link-header.portfolio {
-    color: #2196F3;
-}
 
 .list-link-header.contacts {
     margin-right: 0px;
@@ -135,12 +132,15 @@ nav {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-right: 50px;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
-.link-contact.phone {
-    margin-right: 0%;
+.list-link-contact {
+    margin-right: 50px;
+}
+
+.list-link-contact.phone {
+    margin-right: 0;
 }
 
 .link-contact:hover,
