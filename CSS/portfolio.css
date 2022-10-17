@@ -7,17 +7,47 @@ body {
     font-family: Roboto, sans-serif;
 }
 .container {
-    max-width: 1230px;
-    margin: auto;
+    width: 1200px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+a {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+button {
+    margin: o;
 }
 /* header */
 .section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -40,13 +70,30 @@ nav {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: black;
     margin-right: 93px;
 }
 
-.logo {
+.logo-web {
     color: #2196F3;
+}
+
+.logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.list-link-header {
+    margin-right: 50px;
 }
 
 .link-header {
@@ -57,10 +104,13 @@ nav {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    margin-right: 50px;
+
+}
+.link-header.portfolio {
+    color: #2196F3;
 }
 
-.link-header.contacts {
+.list-link-header.contacts {
     margin-right: 0px;
 }
 
@@ -102,19 +152,24 @@ nav {
 h1 {
     display: none;
 }
+.section-our-works {
+    padding-top: 94px;
+}
 .filter {
     display: flex;
     list-style: none;
-    margin-left: 297px;
-    margin-right: 298px;
     padding-left: 0%;
-    justify-content: space-between;
-    margin-top: 94px;
+    align-items: center;    
     margin-bottom: 34px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .buttons-filter {
-    font-weight: 500; 
+    margin-right: 8px;
+}
+.buttons-filter-item {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
@@ -123,10 +178,14 @@ h1 {
     cursor: pointer;
     border-radius: 4px;
     border: transparent;
+    padding: 6px 22px;
+}
+.buttons-filter.marketing {
+    margin-right: 0;
 }
 
-.buttons-filter:hover,
-.buttons-filter:focus {
+.buttons-filter-item:hover,
+.buttons-filter-item:focus {
     color: white;
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -137,12 +196,11 @@ h1 {
     flex-wrap: wrap;
     list-style: none;
     padding-left: 0%;
-    justify-content: space-between;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
+    gap: 30px;
 }
 .work-cards {
     padding-bottom: 20px;
-    margin-bottom: 30px;
     background-color: #EEEEEE;
 }
 .work-cards.last {
@@ -150,6 +208,7 @@ h1 {
 }
 
 .link-main {
+    display: block;
     text-decoration: none;
 }
 .title {
@@ -160,7 +219,7 @@ h1 {
     color: var(--primary-color);
     margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
+    padding-left: 24px;
 }
 .subtitle {
     font-size: 16px;
@@ -168,12 +227,14 @@ h1 {
         letter-spacing: 0.03em;
     color: var(--secondary-color);
     margin-bottom: 0%;
-    margin-left: 24px;
+    padding-left: 24px;
     margin-top: 0%;
 }
 /* footer */
-footer {
+.section-footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -186,8 +247,7 @@ footer {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: white;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .link-footer-address {
@@ -218,7 +278,7 @@ footer {
     list-style: none;
     padding-left: 0%;
     margin: 0%;
-    padding-bottom: 60px;
+
 }
 
 .link-footer:hover,
@@ -226,11 +286,10 @@ footer {
     color: var(--link-color-hover)
 }
 
-.link-footer,
-.link-footer-address {
+.contact-item {
     margin-bottom: 9px;
 }
 
-.link-footer.phone {
-    margin-bottom: 0%;
+.contact-item.phone {
+    margin-bottom: 0;
 }
