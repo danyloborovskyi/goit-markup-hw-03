@@ -33,11 +33,14 @@ img {
     display: block;
 }
  /* header */
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
  .section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
  }
  
  .list-navigation {
@@ -88,6 +91,9 @@ nav {
         line-height: 16px;
         letter-spacing: 0.02em;
         
+}
+.link-header.studio {
+    color: #2196F3;
 }
 .list-link-header.contacts {
     margin-right: 0px;
@@ -161,6 +167,7 @@ margin-right: 0;
     border-radius: 4px;
     padding: 10px 32px;
     margin: auto;
+    border: none;
 }
 .section-advantages {
 padding-top: 94px;
@@ -218,19 +225,20 @@ margin-bottom: 0%;
 }
 .team-section {
 background-color: #F5F4FA;
-height: 648px;
-margin-top: 0;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .list-team {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    padding-bottom: 94px;
     padding-left: 0%;
 }
 .card-employee {
     text-align: center;
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .our-team {
         font-weight: 700;
@@ -239,8 +247,11 @@ margin-top: 0;
         letter-spacing: 0.03em;
         color: var(--primary-color);
         text-align: center;
-        padding-top: 94px;
         margin-bottom: 50px;
+}
+.info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .employee {
         font-weight: 500;
@@ -248,7 +259,6 @@ margin-top: 0;
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--primary-color);
-        margin-top: 30px;
         margin-bottom: 10px;
 }
 .position {
@@ -256,7 +266,6 @@ margin-top: 0;
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: #757575;
-        padding-bottom: 30px;
 }
 /* footer */
 .section-footer {
@@ -310,9 +319,6 @@ margin-top: 0;
     color: var(--link-color-hover)
 }
 
-.contact-item {
+.contact-item:not(:last-child) {
     margin-bottom: 9px;
-}
-.contact-item.phone {
-    margin-bottom: 0;
 }
