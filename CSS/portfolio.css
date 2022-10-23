@@ -208,9 +208,6 @@ h1 {
 }
 .work-cards {
     max-width: 370px;
-    border-right: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
 }
 
 .link-main {
@@ -219,6 +216,9 @@ h1 {
 }
 .info-portfolio {
     padding: 20px 24px;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .title {
     font-weight: 700;
